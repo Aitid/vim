@@ -268,6 +268,7 @@ let g:syntastic_ignore_files = ['\.py$']
 
 " указываем каталог с настройками SnipMate
 let g:snippets_dir = "~/.vim/vim-snippets/snippets"
+let g:snipMate = { ‘snippet_version’ : 1 }
 
 " настройки Vim-Airline
 set laststatus=2
